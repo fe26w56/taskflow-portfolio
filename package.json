@@ -1,0 +1,17 @@
+{
+  "name": "taskflow-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "demo": "node demo/scenario.ts",
+    "start": "node demo/server.ts"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  }
+}

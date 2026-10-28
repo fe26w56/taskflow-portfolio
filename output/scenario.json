@@ -1,0 +1,88 @@
+{
+  "task": {
+    "id": "tsk_c6e48dab-9156-462f-a2ea-145928cf9bd6",
+    "owner_id": "demo-owner",
+    "version": 4,
+    "title": "公開デモのキーボード操作を検証する",
+    "notes": "操作手順と確認結果を記録し、人が完了根拠を追えるようにする。",
+    "area": "private",
+    "project_key": "Portfolio",
+    "status": "done",
+    "priority": "high",
+    "planned_start_at": null,
+    "deadline_date": null,
+    "deadline_at": null,
+    "timezone": "Asia/Tokyo",
+    "estimate_minutes": null,
+    "definition_of_done": null,
+    "completed_at": "2026-10-28T10:23:21.346Z",
+    "completion_evidence": {
+      "kind": "test",
+      "summary": "キーボード操作・重複送信・古いversionの拒否を確認した（合成デモ）。"
+    },
+    "cancel_reason": null,
+    "executor_kind": "agent",
+    "source_ref": null,
+    "context_refs": [],
+    "series_id": null,
+    "occurrence_key": null,
+    "legacy_issue_number": null,
+    "created_at": "2026-10-28T10:23:21.326Z",
+    "updated_at": "2026-10-28T10:23:21.346Z",
+    "archived_at": null,
+    "assigned_agent": "demo-agent",
+    "requester_ref": null,
+    "accepted_at": "2026-10-28T10:23:21.335Z",
+    "waiting_kind": null,
+    "waiting_on_ref": null,
+    "blocker_summary": null,
+    "next_check_at": null,
+    "next_check_by": null,
+    "checklist": []
+  },
+  "progress": [
+    {
+      "id": "prg_9581bd4f-a7f5-4a35-8329-b12a753ea9fb",
+      "task_id": "tsk_c6e48dab-9156-462f-a2ea-145928cf9bd6",
+      "owner_id": "demo-owner",
+      "client_id": "demo-agent",
+      "request_id": "progress",
+      "actor": {
+        "kind": "oauth_client",
+        "id": "demo-owner",
+        "client_id": "demo-agent"
+      },
+      "reported_agent": "demo-agent",
+      "attribution": "self",
+      "summary": "Tabで移動し、Enterで詳細を開けることを確認。",
+      "source_ref": null,
+      "created_at": "2026-10-28T10:23:21.340Z"
+    }
+  ],
+  "events": [
+    {
+      "type": "created",
+      "task_version": 1,
+      "actor": "{\"kind\":\"oauth_client\",\"id\":\"demo-owner\",\"client_id\":\"demo-agent\"}",
+      "created_at": "2026-10-28T10:23:21.326Z"
+    },
+    {
+      "type": "updated",
+      "task_version": 2,
+      "actor": "{\"kind\":\"oauth_client\",\"id\":\"demo-owner\",\"client_id\":\"demo-agent\"}",
+      "created_at": "2026-10-28T10:23:21.335Z"
+    },
+    {
+      "type": "updated",
+      "task_version": 3,
+      "actor": "{\"kind\":\"oauth_client\",\"id\":\"demo-owner\",\"client_id\":\"demo-agent\"}",
+      "created_at": "2026-10-28T10:23:21.342Z"
+    },
+    {
+      "type": "completed",
+      "task_version": 4,
+      "actor": "{\"kind\":\"oauth_client\",\"id\":\"demo-owner\",\"client_id\":\"demo-agent\"}",
+      "created_at": "2026-10-28T10:23:21.346Z"
+    }
+  ]
+}

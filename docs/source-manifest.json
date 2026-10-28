@@ -1,0 +1,167 @@
+{
+  "source_repository": "taskflow",
+  "source_tree_sha": "368153dd58bac5dd768589aea150bc22e92cb809",
+  "files": [
+    {
+      "path": "tests/v1-agent-work.test.ts",
+      "source_path": "worker/tests/v1-agent-work.test.ts",
+      "source_sha256": "c6791a599d2598b5c658585203906b8982b6c5283996af59757f7d7eb3599138",
+      "published_sha256": "0abab32fdaa1e43df971cfb9ffb8b0ac203d1e1b5d9de6ef046fb7fb49e711d3",
+      "unchanged": false
+    },
+    {
+      "path": "tests/v1-d1-helper.ts",
+      "source_path": "worker/tests/v1-d1-helper.ts",
+      "source_sha256": "46677600fbc7708ecc5cdf64816894a2189172dce830a096da2d2e7810727d53",
+      "published_sha256": "46677600fbc7708ecc5cdf64816894a2189172dce830a096da2d2e7810727d53",
+      "unchanged": true
+    },
+    {
+      "path": "tests/v1-tasks.test.ts",
+      "source_path": "worker/tests/v1-tasks.test.ts",
+      "source_sha256": "4e970d519b3634264726b7065696d805dcf44758ba4a386e50f10b5d3605938a",
+      "published_sha256": "4e970d519b3634264726b7065696d805dcf44758ba4a386e50f10b5d3605938a",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0005_actual_history_indexes.sql",
+      "source_path": "worker/migrations/0005_actual_history_indexes.sql",
+      "source_sha256": "154440b2cdebce22020d7aaca6472ff5ce499341144c4f140b3458239b8496c6",
+      "published_sha256": "154440b2cdebce22020d7aaca6472ff5ce499341144c4f140b3458239b8496c6",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0009_v1_legacy_import.sql",
+      "source_path": "worker/migrations/0009_v1_legacy_import.sql",
+      "source_sha256": "33c3c3e55d1e74c615379eb31a6b69835b5e23308eea02d3dfd1d993c94b4c89",
+      "published_sha256": "33c3c3e55d1e74c615379eb31a6b69835b5e23308eea02d3dfd1d993c94b4c89",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0008_v1_recurrence.sql",
+      "source_path": "worker/migrations/0008_v1_recurrence.sql",
+      "source_sha256": "35588ded845e8fa920a7e89466b1b564f26ad8e5e843015f2b9dff4ab3b8b160",
+      "published_sha256": "35588ded845e8fa920a7e89466b1b564f26ad8e5e843015f2b9dff4ab3b8b160",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0007_v1_oauth.sql",
+      "source_path": "worker/migrations/0007_v1_oauth.sql",
+      "source_sha256": "2c2aa2674c1c56bb9018031bc067067e55434a5dedc243da3ad25514dad72ee5",
+      "published_sha256": "2c2aa2674c1c56bb9018031bc067067e55434a5dedc243da3ad25514dad72ee5",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0006_v1_tasks.sql",
+      "source_path": "worker/migrations/0006_v1_tasks.sql",
+      "source_sha256": "b13e807562b32bbe40534f189ccff16b957058d73bdab86a329afbf206c774b7",
+      "published_sha256": "b13e807562b32bbe40534f189ccff16b957058d73bdab86a329afbf206c774b7",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0010_v1_web_compat.sql",
+      "source_path": "worker/migrations/0010_v1_web_compat.sql",
+      "source_sha256": "9922e8dd09bbf5bdffb7c9a588fd2250fc7c30d710313de860ac921982d678e2",
+      "published_sha256": "9922e8dd09bbf5bdffb7c9a588fd2250fc7c30d710313de860ac921982d678e2",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0011_v1_agent_work.sql",
+      "source_path": "worker/migrations/0011_v1_agent_work.sql",
+      "source_sha256": "043399b844ab4fe36fc6bf91dfdae91dd6c9df9e7d43058a70dc0332166442bd",
+      "published_sha256": "043399b844ab4fe36fc6bf91dfdae91dd6c9df9e7d43058a70dc0332166442bd",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0003_shadow_ai_jobs.sql",
+      "source_path": "worker/migrations/0003_shadow_ai_jobs.sql",
+      "source_sha256": "72c6e4a8862e55aaa8a77b3fd4b14d16744b840736cfd913451a37eee58b94b5",
+      "published_sha256": "72c6e4a8862e55aaa8a77b3fd4b14d16744b840736cfd913451a37eee58b94b5",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0002_task_mutation_ledger.sql",
+      "source_path": "worker/migrations/0002_task_mutation_ledger.sql",
+      "source_sha256": "000759249d793bc148c8d0c62cfab17da83e7858c730319a8e4a10ed205ed1f7",
+      "published_sha256": "000759249d793bc148c8d0c62cfab17da83e7858c730319a8e4a10ed205ed1f7",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0012_v1_agent_wake.sql",
+      "source_path": "worker/migrations/0012_v1_agent_wake.sql",
+      "source_sha256": "d7a68918e53d854f57b6ebebec5a6004c0c738afa59289738362153299247b20",
+      "published_sha256": "d7a68918e53d854f57b6ebebec5a6004c0c738afa59289738362153299247b20",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0004_shadow_ai_feedback.sql",
+      "source_path": "worker/migrations/0004_shadow_ai_feedback.sql",
+      "source_sha256": "7d7134593c2f39db99a0620b3f2fea85c043f2f3a304e7b796e8e2637300e1b0",
+      "published_sha256": "7d7134593c2f39db99a0620b3f2fea85c043f2f3a304e7b796e8e2637300e1b0",
+      "unchanged": true
+    },
+    {
+      "path": "migrations/0001_foundation.sql",
+      "source_path": "worker/migrations/0001_foundation.sql",
+      "source_sha256": "78d835924e9fdb12b537c6be99b30743df9a78a23da218b9fccfac0a14bf373d",
+      "published_sha256": "78d835924e9fdb12b537c6be99b30743df9a78a23da218b9fccfac0a14bf373d",
+      "unchanged": true
+    },
+    {
+      "path": "tests/fixtures/v1-mcp-pr1-inputs.json",
+      "source_path": "worker/tests/fixtures/v1-mcp-pr1-inputs.json",
+      "source_sha256": "c33770d1dfd08439462329a2109eef4b3541dade2b44ebb2dc038adbb84cb715",
+      "published_sha256": "c33770d1dfd08439462329a2109eef4b3541dade2b44ebb2dc038adbb84cb715",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/tasks/wake.ts",
+      "source_path": "worker/src/v1/tasks/wake.ts",
+      "source_sha256": "016eee909e0b28d6038bb8eb16e6934eb44ef84f7ccfb4954fa34e99e533e592",
+      "published_sha256": "016eee909e0b28d6038bb8eb16e6934eb44ef84f7ccfb4954fa34e99e533e592",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/tasks/index.ts",
+      "source_path": "worker/src/v1/tasks/index.ts",
+      "source_sha256": "2d16ac98129ed0122d48c14bf0cf65db9b31c99074403471a79a6b9c7594dd0a",
+      "published_sha256": "2d16ac98129ed0122d48c14bf0cf65db9b31c99074403471a79a6b9c7594dd0a",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/auth/agent-identity.ts",
+      "source_path": "worker/src/v1/auth/agent-identity.ts",
+      "source_sha256": "ecad1738c0f4a8e90a1b92f459ee7f22dd8089e364c3bd10c3ae898068bae509",
+      "published_sha256": "ecad1738c0f4a8e90a1b92f459ee7f22dd8089e364c3bd10c3ae898068bae509",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/contracts/index.ts",
+      "source_path": "worker/src/v1/contracts/index.ts",
+      "source_sha256": "69ff98e8ea763391b6af6212505ba9c476e3903d3785d65d9065b32f8dbe6720",
+      "published_sha256": "69ff98e8ea763391b6af6212505ba9c476e3903d3785d65d9065b32f8dbe6720",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/storage/d1/index.ts",
+      "source_path": "worker/src/v1/storage/d1/index.ts",
+      "source_sha256": "60cbef52bd156952a250cf872c725d35830c70f91392c57f2451791dcb6fb119",
+      "published_sha256": "60cbef52bd156952a250cf872c725d35830c70f91392c57f2451791dcb6fb119",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/jobs/recurrence/index.ts",
+      "source_path": "worker/src/v1/jobs/recurrence/index.ts",
+      "source_sha256": "f690ce459801281c0f57b9e9a25d86b5f1c06c5fa371bf579174434bae60bde3",
+      "published_sha256": "f690ce459801281c0f57b9e9a25d86b5f1c06c5fa371bf579174434bae60bde3",
+      "unchanged": true
+    },
+    {
+      "path": "src/v1/jobs/recurrence/service.ts",
+      "source_path": "worker/src/v1/jobs/recurrence/service.ts",
+      "source_sha256": "3821baa07a4731240fefe8608dae61226127867c0cab3014626d8e3d58032bf2",
+      "published_sha256": "3821baa07a4731240fefe8608dae61226127867c0cab3014626d8e3d58032bf2",
+      "unchanged": true
+    }
+  ]
+}
