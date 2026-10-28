@@ -28,3 +28,32 @@
 ![完了後の画面](screenshot.png)
 
 ![モバイル](mobile.png)
+
+## README改訂時の再確認
+
+Node.js 24.22.1で`npm ci`、`npm test`、`npm run demo`を再実行し、すべて成功しました。
+テストは33件成功・失敗0件です。独立したbuildスクリプトはなく、Node.jsがTypeScriptを直接実行します。
+
+```sh
+node --test --experimental-test-coverage tests/*.test.ts
+```
+
+上記のall files集計（テスト用SQLiteアダプターを含む）は行70.62%、分岐89.65%、関数73.15%でした。
+繰り返し処理などの未カバー領域があり、全機能の保証を示す数字ではありません。
+
+Browser plugin not availableのため、Playwright 1.59.1とローカルGoogle Chromeを使用しました。
+`npm start`で起動した`http://127.0.0.1:4174`に接続し、1120×1000と390×844で確認しました。
+ページタイトルと本文を確認し、エラーオーバーレイ・想定外のconsole error・pageerrorは検出しませんでした。
+引き受け→進捗追記（version不変）→レビュー待ち→古い更新の409 VERSION_CONFLICT→根拠なし完了の409 VALIDATION_FAILED→根拠付き完了を確認しました。
+拒否後に確認待ち状態が維持されること、完了根拠が表示されること、モバイルで横はみ出しがないことも確認しました。
+意図した409のリソースエラー表示はconsoleの異常判定から除外しています。
+
+撮影対象は`demo/model.ts`の架空データのみです。新規画像とGIFの全フレームを開き、個人情報・実データ・ローカルパス・トークンが写っていないことを確認しました。
+GIFは拒否操作を除いた正常系です。既存画像は残し、新しい画像をREADMEから相対参照しています。
+
+- [正常系GIF](images/workflow.gif)
+- [競合拒否](images/version-conflict.png)
+- [根拠なし完了の拒否](images/evidence-required.png)
+- [モバイル390×844](images/mobile-390.png)
+
+この再確認はローカルの公開デモが対象です。OAuth・MCP配信・外部通知・本番D1・性能は未検証です。
